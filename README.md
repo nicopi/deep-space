@@ -7,7 +7,7 @@ This numerical simulator implements an encoder and three different decoders for 
 
 This code is designed for any __space communications link__ although it was initially targeted for communications links between spacecraft to ground elements. Current advances in space qualified field programmable gate array (FPGA) technology has potentially given rise to implementations for space to space communication links as well. As a result, this code can apply to __any space link that requires bandwidth efficient communications__.
 
-An an example of application, this code is used by the Landsat Data Continuity Mission (Launched: February, 2013). In particular, it is adopted to downlink data transmission in the X-band. This 384 Mbps data rate communications link is NASA’s first operational use of an LDPC and is the first use of an LDPC code for a space to ground link for any agency or company.
+An an example of application, this code is used by the [Landsat Data Continuity Mission](https://www.nasa.gov/directorates/heo/scan/services/missions/earth/LDCM.html) (Launched: February, 2013). In particular, it is adopted to downlink data transmission in the X-band. This 384 Mbps data rate communications link is NASA’s first operational use of an LDPC and is the first use of an LDPC code for a space to ground link for any agency or company.
 
 ## Decoder
 The decoding is done using a __message-passing algorithm__. This is an iterative decoding technique
@@ -20,7 +20,7 @@ Check nodes computation can be optimized in terms of complexity, considering tha
 
 ## List of files
 * `./generator.m` - create the LDPC code generator matrix and export it to the data.mat file
-* `/SP/` - sum-product decode with soft decision (implemented both in MATLAB and C)
+* `/SP/` - sum-product decoder with soft decision (implemented both in MATLAB and C)
 * `./SP-H/` - sum-product decoder with hard decision (implemented both in MATLAB and C)
 * `./MS/` - min-sum decoder (implemented in MATLAB)
 * `./plots/` - code for plotting the pre-computed performance
