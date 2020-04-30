@@ -1,5 +1,4 @@
 # LDPC Codes for Deep-Space Communications
-Numerical simulator for performance analysis of the LDPC code standard NASA GSFC-STD-9100
 
 This numerical simulator implements an encoder and three different decoders for the performance analysis of the Low Density Parity Check (LDPC) code described in the [NASA GSFC-STD-9100 standard](https://standards.nasa.gov/standard/gsfc/gsfc-std-9100). In particular, the software implements the (8176,7154) code described in Chapter 7 of the «CCSDS Recommended Standards for TM synchronization and channel coding».
 
