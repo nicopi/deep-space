@@ -23,3 +23,12 @@ Check nodes computation can be optimized in terms of complexity, considering tha
 * `./SP-H/` - sum-product decoder with hard decision (implemented both in MATLAB and C)
 * `./MS/` - min-sum decoder (implemented in MATLAB)
 * `./plots/` - code for plotting the pre-computed performance
+
+## Performance
+In the following, we provide the achieved performance, measured as _bit error probability (Pbit)_ for different values of _SNR_ (measured as Eb/N0).
+
+![alt text](https://raw.githubusercontent.com/nicopi/deep-space/master/doc/img/SPvsMS.png "sum-product vs min.sum")
+__Fig. 1.__ Performance achieved by the sum-product and min-sum decoders.
+
+![alt text](https://raw.githubusercontent.com/nicopi/deep-space/master/doc/img/SPH.png "sum-product vs min.sum")
+__Fig. 2.__ Comparison between sum-product/min-sum with soft-decision and sum-product with hard decision.
